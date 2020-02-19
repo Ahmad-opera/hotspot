@@ -1,0 +1,65 @@
+body{
+    background-color: #46AA5A;
+    color: #707070;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a{
+    color: #46AA5A;
+}
+
+@media screen and (max-width: 767px){
+    body{
+        background: white;
+    }
+}
+
+.container{
+    margin-top: 5%;
+    background-color: #FEFEFE;
+}
+
+
+
+@media screen and (min-width: 1023px){
+    .container{
+        border-radius: 25px;
+        -webkit-transition: 0.8s cubic-bezier(0.88, -0.55, 0.265, 1.55);
+        transition: 0.8s cubic-bezier(0.88, -0.55, 0.265, 1.55);
+    }
+    
+    .container:hover{
+        box-shadow: rgba(0, 0, 0, 0.218) 0px 0px 50px;
+    transition: 0.8s cubic-bezier(0.88, -0.55, 0.265, 1.55);
+}
+    
+}
+
+.btn{
+    background-color: #46AA5A;
+    color: white;
+} 
+
+
+
+.foot{
+    background-color: #46AA5A;
+    color: white;
+    font-size: 10px;
+    margin-left: 0;
+}
+
+/* Make an inner shadow effect for the fields*/
+input{
+    
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+
+input::placeholder{
+    text-transform: capitalize;
+}
+
+
